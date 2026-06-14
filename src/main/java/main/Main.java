@@ -22,7 +22,5 @@ public class Main {
 
         gamePanel.setupGame();
         gamePanel.startGameThread();
-
-        println("Game started successfully!");
     }
 }
