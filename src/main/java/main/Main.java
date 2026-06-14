@@ -2,6 +2,8 @@ package main.java.main;
 
 import javax.swing.*;
 
+import static java.sql.DriverManager.println;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -20,5 +22,7 @@ public class Main {
 
         gamePanel.setupGame();
         gamePanel.startGameThread();
+
+        println("Game started successfully!");
     }
 }
